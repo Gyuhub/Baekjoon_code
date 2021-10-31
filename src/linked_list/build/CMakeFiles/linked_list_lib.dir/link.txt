@@ -1,0 +1,2 @@
+/usr/bin/ar qc bin/lib/liblinked_list_lib.a  CMakeFiles/linked_list_lib.dir/src/kirogar.cpp.o
+/usr/bin/ranlib bin/lib/liblinked_list_lib.a

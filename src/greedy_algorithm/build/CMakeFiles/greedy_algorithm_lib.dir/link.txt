@@ -1,0 +1,2 @@
+/usr/bin/ar qc bin/lib/libgreedy_algorithm_lib.a  CMakeFiles/greedy_algorithm_lib.dir/src/coin0.cpp.o
+/usr/bin/ranlib bin/lib/libgreedy_algorithm_lib.a

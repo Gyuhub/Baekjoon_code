@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gyubuntu/Documents/Baekjoon/src/graph_search/src/apartment.cpp
+iostream
+-
+string
+-
+queue
+-
+algorithm
+-
+vector
+-
+memory.h
+-
+

@@ -1,0 +1,8 @@
+/home/gyubuntu/Documents/Baekjoon/src/greedy_algorithm/build/CMakeFiles/install/strip.dir
+/home/gyubuntu/Documents/Baekjoon/src/greedy_algorithm/build/CMakeFiles/install/local.dir
+/home/gyubuntu/Documents/Baekjoon/src/greedy_algorithm/build/CMakeFiles/greedy_algorithm_exe.dir
+/home/gyubuntu/Documents/Baekjoon/src/greedy_algorithm/build/CMakeFiles/greedy_algorithm_lib.dir
+/home/gyubuntu/Documents/Baekjoon/src/greedy_algorithm/build/CMakeFiles/edit_cache.dir
+/home/gyubuntu/Documents/Baekjoon/src/greedy_algorithm/build/CMakeFiles/rebuild_cache.dir
+/home/gyubuntu/Documents/Baekjoon/src/greedy_algorithm/build/CMakeFiles/list_install_components.dir
+/home/gyubuntu/Documents/Baekjoon/src/greedy_algorithm/build/CMakeFiles/install.dir

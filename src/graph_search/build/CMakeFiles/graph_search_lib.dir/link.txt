@@ -1,0 +1,2 @@
+/usr/bin/ar qc bin/lib/libgraph_search_lib.a  CMakeFiles/graph_search_lib.dir/src/apartment.cpp.o
+/usr/bin/ranlib bin/lib/libgraph_search_lib.a

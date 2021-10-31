@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/linked_list_exe.dir/src/kirogar.cpp.o  -o linked_list_exe bin/lib/liblinked_list_lib.a 

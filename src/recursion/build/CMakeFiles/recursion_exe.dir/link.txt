@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/recursion_exe.dir/src/traversalOfTree.cpp.o  -o recursion_exe bin/lib/librecursion_lib.a 

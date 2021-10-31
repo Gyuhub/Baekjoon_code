@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gyubuntu/Documents/Baekjoon/src /example/src/example.cpp
+iostream
+-
+stdio.h
+-
+fstream
+-
+vector
+-
+chrono
+-
+time.h
+-
+

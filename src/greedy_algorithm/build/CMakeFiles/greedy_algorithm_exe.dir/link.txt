@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/greedy_algorithm_exe.dir/src/coin0.cpp.o  -o greedy_algorithm_exe bin/lib/libgreedy_algorithm_lib.a 

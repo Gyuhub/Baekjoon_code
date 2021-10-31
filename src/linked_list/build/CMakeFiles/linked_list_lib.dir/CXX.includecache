@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gyubuntu/Documents/Baekjoon/src /linked_list/src/kirogar.cpp
+iostream
+-
+stdio.h
+-
+fstream
+-
+string
+-
+list
+-
+chrono
+-
+time.h
+-
+
