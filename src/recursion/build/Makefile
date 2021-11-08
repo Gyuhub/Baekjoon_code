@@ -182,35 +182,35 @@ recursion_lib/fast:
 	$(MAKE) -f CMakeFiles/recursion_lib.dir/build.make CMakeFiles/recursion_lib.dir/build
 .PHONY : recursion_lib/fast
 
-src/traversalOfTree.o: src/traversalOfTree.cpp.o
+src/star_11.o: src/star_11.cpp.o
 
-.PHONY : src/traversalOfTree.o
+.PHONY : src/star_11.o
 
 # target to build an object file
-src/traversalOfTree.cpp.o:
-	$(MAKE) -f CMakeFiles/recursion_exe.dir/build.make CMakeFiles/recursion_exe.dir/src/traversalOfTree.cpp.o
-	$(MAKE) -f CMakeFiles/recursion_lib.dir/build.make CMakeFiles/recursion_lib.dir/src/traversalOfTree.cpp.o
-.PHONY : src/traversalOfTree.cpp.o
+src/star_11.cpp.o:
+	$(MAKE) -f CMakeFiles/recursion_exe.dir/build.make CMakeFiles/recursion_exe.dir/src/star_11.cpp.o
+	$(MAKE) -f CMakeFiles/recursion_lib.dir/build.make CMakeFiles/recursion_lib.dir/src/star_11.cpp.o
+.PHONY : src/star_11.cpp.o
 
-src/traversalOfTree.i: src/traversalOfTree.cpp.i
+src/star_11.i: src/star_11.cpp.i
 
-.PHONY : src/traversalOfTree.i
+.PHONY : src/star_11.i
 
 # target to preprocess a source file
-src/traversalOfTree.cpp.i:
-	$(MAKE) -f CMakeFiles/recursion_exe.dir/build.make CMakeFiles/recursion_exe.dir/src/traversalOfTree.cpp.i
-	$(MAKE) -f CMakeFiles/recursion_lib.dir/build.make CMakeFiles/recursion_lib.dir/src/traversalOfTree.cpp.i
-.PHONY : src/traversalOfTree.cpp.i
+src/star_11.cpp.i:
+	$(MAKE) -f CMakeFiles/recursion_exe.dir/build.make CMakeFiles/recursion_exe.dir/src/star_11.cpp.i
+	$(MAKE) -f CMakeFiles/recursion_lib.dir/build.make CMakeFiles/recursion_lib.dir/src/star_11.cpp.i
+.PHONY : src/star_11.cpp.i
 
-src/traversalOfTree.s: src/traversalOfTree.cpp.s
+src/star_11.s: src/star_11.cpp.s
 
-.PHONY : src/traversalOfTree.s
+.PHONY : src/star_11.s
 
 # target to generate assembly for a file
-src/traversalOfTree.cpp.s:
-	$(MAKE) -f CMakeFiles/recursion_exe.dir/build.make CMakeFiles/recursion_exe.dir/src/traversalOfTree.cpp.s
-	$(MAKE) -f CMakeFiles/recursion_lib.dir/build.make CMakeFiles/recursion_lib.dir/src/traversalOfTree.cpp.s
-.PHONY : src/traversalOfTree.cpp.s
+src/star_11.cpp.s:
+	$(MAKE) -f CMakeFiles/recursion_exe.dir/build.make CMakeFiles/recursion_exe.dir/src/star_11.cpp.s
+	$(MAKE) -f CMakeFiles/recursion_lib.dir/build.make CMakeFiles/recursion_lib.dir/src/star_11.cpp.s
+.PHONY : src/star_11.cpp.s
 
 # Help Target
 help:
@@ -226,9 +226,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... install"
-	@echo "... src/traversalOfTree.o"
-	@echo "... src/traversalOfTree.i"
-	@echo "... src/traversalOfTree.s"
+	@echo "... src/star_11.o"
+	@echo "... src/star_11.i"
+	@echo "... src/star_11.s"
 .PHONY : help
 
 

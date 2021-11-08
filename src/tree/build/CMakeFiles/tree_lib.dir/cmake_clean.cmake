@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tree_lib.dir/src/findLeafNode.cpp.o"
+  "CMakeFiles/tree_lib.dir/src/tree.cpp.o"
   "bin/lib/libtree_lib.pdb"
   "bin/lib/libtree_lib.a"
 )

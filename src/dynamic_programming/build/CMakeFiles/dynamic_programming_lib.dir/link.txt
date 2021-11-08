@@ -1,2 +1,2 @@
-/usr/bin/ar qc bin/lib/libdynamic_programming_lib.a  CMakeFiles/dynamic_programming_lib.dir/src/fibo.cpp.o
+/usr/bin/ar qc bin/lib/libdynamic_programming_lib.a  CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o
 /usr/bin/ranlib bin/lib/libdynamic_programming_lib.a

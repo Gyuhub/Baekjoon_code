@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dynamic_programming_exe.dir/src/fibo.cpp.o"
+  "CMakeFiles/dynamic_programming_exe.dir/src/2xn.cpp.o"
   "dynamic_programming_exe.pdb"
   "dynamic_programming_exe"
 )

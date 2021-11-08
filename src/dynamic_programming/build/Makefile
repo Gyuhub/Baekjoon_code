@@ -182,35 +182,35 @@ dynamic_programming_exe/fast:
 	$(MAKE) -f CMakeFiles/dynamic_programming_exe.dir/build.make CMakeFiles/dynamic_programming_exe.dir/build
 .PHONY : dynamic_programming_exe/fast
 
-src/fibo.o: src/fibo.cpp.o
+src/2xn.o: src/2xn.cpp.o
 
-.PHONY : src/fibo.o
+.PHONY : src/2xn.o
 
 # target to build an object file
-src/fibo.cpp.o:
-	$(MAKE) -f CMakeFiles/dynamic_programming_lib.dir/build.make CMakeFiles/dynamic_programming_lib.dir/src/fibo.cpp.o
-	$(MAKE) -f CMakeFiles/dynamic_programming_exe.dir/build.make CMakeFiles/dynamic_programming_exe.dir/src/fibo.cpp.o
-.PHONY : src/fibo.cpp.o
+src/2xn.cpp.o:
+	$(MAKE) -f CMakeFiles/dynamic_programming_lib.dir/build.make CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o
+	$(MAKE) -f CMakeFiles/dynamic_programming_exe.dir/build.make CMakeFiles/dynamic_programming_exe.dir/src/2xn.cpp.o
+.PHONY : src/2xn.cpp.o
 
-src/fibo.i: src/fibo.cpp.i
+src/2xn.i: src/2xn.cpp.i
 
-.PHONY : src/fibo.i
+.PHONY : src/2xn.i
 
 # target to preprocess a source file
-src/fibo.cpp.i:
-	$(MAKE) -f CMakeFiles/dynamic_programming_lib.dir/build.make CMakeFiles/dynamic_programming_lib.dir/src/fibo.cpp.i
-	$(MAKE) -f CMakeFiles/dynamic_programming_exe.dir/build.make CMakeFiles/dynamic_programming_exe.dir/src/fibo.cpp.i
-.PHONY : src/fibo.cpp.i
+src/2xn.cpp.i:
+	$(MAKE) -f CMakeFiles/dynamic_programming_lib.dir/build.make CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.i
+	$(MAKE) -f CMakeFiles/dynamic_programming_exe.dir/build.make CMakeFiles/dynamic_programming_exe.dir/src/2xn.cpp.i
+.PHONY : src/2xn.cpp.i
 
-src/fibo.s: src/fibo.cpp.s
+src/2xn.s: src/2xn.cpp.s
 
-.PHONY : src/fibo.s
+.PHONY : src/2xn.s
 
 # target to generate assembly for a file
-src/fibo.cpp.s:
-	$(MAKE) -f CMakeFiles/dynamic_programming_lib.dir/build.make CMakeFiles/dynamic_programming_lib.dir/src/fibo.cpp.s
-	$(MAKE) -f CMakeFiles/dynamic_programming_exe.dir/build.make CMakeFiles/dynamic_programming_exe.dir/src/fibo.cpp.s
-.PHONY : src/fibo.cpp.s
+src/2xn.cpp.s:
+	$(MAKE) -f CMakeFiles/dynamic_programming_lib.dir/build.make CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.s
+	$(MAKE) -f CMakeFiles/dynamic_programming_exe.dir/build.make CMakeFiles/dynamic_programming_exe.dir/src/2xn.cpp.s
+.PHONY : src/2xn.cpp.s
 
 # Help Target
 help:
@@ -226,9 +226,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... dynamic_programming_exe"
 	@echo "... install"
-	@echo "... src/fibo.o"
-	@echo "... src/fibo.i"
-	@echo "... src/fibo.s"
+	@echo "... src/2xn.o"
+	@echo "... src/2xn.i"
+	@echo "... src/2xn.s"
 .PHONY : help
 
 

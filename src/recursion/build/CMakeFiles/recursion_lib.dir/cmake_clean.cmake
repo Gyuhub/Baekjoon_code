@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/recursion_lib.dir/src/traversalOfTree.cpp.o"
+  "CMakeFiles/recursion_lib.dir/src/star_11.cpp.o"
   "bin/lib/librecursion_lib.pdb"
   "bin/lib/librecursion_lib.a"
 )

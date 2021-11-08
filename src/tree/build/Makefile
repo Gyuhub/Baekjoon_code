@@ -182,35 +182,35 @@ tree_lib/fast:
 	$(MAKE) -f CMakeFiles/tree_lib.dir/build.make CMakeFiles/tree_lib.dir/build
 .PHONY : tree_lib/fast
 
-src/findLeafNode.o: src/findLeafNode.cpp.o
+src/tree.o: src/tree.cpp.o
 
-.PHONY : src/findLeafNode.o
+.PHONY : src/tree.o
 
 # target to build an object file
-src/findLeafNode.cpp.o:
-	$(MAKE) -f CMakeFiles/tree_exe.dir/build.make CMakeFiles/tree_exe.dir/src/findLeafNode.cpp.o
-	$(MAKE) -f CMakeFiles/tree_lib.dir/build.make CMakeFiles/tree_lib.dir/src/findLeafNode.cpp.o
-.PHONY : src/findLeafNode.cpp.o
+src/tree.cpp.o:
+	$(MAKE) -f CMakeFiles/tree_exe.dir/build.make CMakeFiles/tree_exe.dir/src/tree.cpp.o
+	$(MAKE) -f CMakeFiles/tree_lib.dir/build.make CMakeFiles/tree_lib.dir/src/tree.cpp.o
+.PHONY : src/tree.cpp.o
 
-src/findLeafNode.i: src/findLeafNode.cpp.i
+src/tree.i: src/tree.cpp.i
 
-.PHONY : src/findLeafNode.i
+.PHONY : src/tree.i
 
 # target to preprocess a source file
-src/findLeafNode.cpp.i:
-	$(MAKE) -f CMakeFiles/tree_exe.dir/build.make CMakeFiles/tree_exe.dir/src/findLeafNode.cpp.i
-	$(MAKE) -f CMakeFiles/tree_lib.dir/build.make CMakeFiles/tree_lib.dir/src/findLeafNode.cpp.i
-.PHONY : src/findLeafNode.cpp.i
+src/tree.cpp.i:
+	$(MAKE) -f CMakeFiles/tree_exe.dir/build.make CMakeFiles/tree_exe.dir/src/tree.cpp.i
+	$(MAKE) -f CMakeFiles/tree_lib.dir/build.make CMakeFiles/tree_lib.dir/src/tree.cpp.i
+.PHONY : src/tree.cpp.i
 
-src/findLeafNode.s: src/findLeafNode.cpp.s
+src/tree.s: src/tree.cpp.s
 
-.PHONY : src/findLeafNode.s
+.PHONY : src/tree.s
 
 # target to generate assembly for a file
-src/findLeafNode.cpp.s:
-	$(MAKE) -f CMakeFiles/tree_exe.dir/build.make CMakeFiles/tree_exe.dir/src/findLeafNode.cpp.s
-	$(MAKE) -f CMakeFiles/tree_lib.dir/build.make CMakeFiles/tree_lib.dir/src/findLeafNode.cpp.s
-.PHONY : src/findLeafNode.cpp.s
+src/tree.cpp.s:
+	$(MAKE) -f CMakeFiles/tree_exe.dir/build.make CMakeFiles/tree_exe.dir/src/tree.cpp.s
+	$(MAKE) -f CMakeFiles/tree_lib.dir/build.make CMakeFiles/tree_lib.dir/src/tree.cpp.s
+.PHONY : src/tree.cpp.s
 
 # Help Target
 help:
@@ -226,9 +226,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
 	@echo "... install"
-	@echo "... src/findLeafNode.o"
-	@echo "... src/findLeafNode.i"
-	@echo "... src/findLeafNode.s"
+	@echo "... src/tree.o"
+	@echo "... src/tree.i"
+	@echo "... src/tree.s"
 .PHONY : help
 
 

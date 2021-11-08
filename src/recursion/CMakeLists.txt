@@ -5,8 +5,8 @@ project(recursion)
 # Set source file
 set(SRC_FILES
     #src/hanoiTower.cpp
-    # src/star_11.cpp
-    src/traversalOfTree.cpp
+    src/star_11.cpp
+    # src/traversalOfTree.cpp
 )
 # Set CMake output directory
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/build )

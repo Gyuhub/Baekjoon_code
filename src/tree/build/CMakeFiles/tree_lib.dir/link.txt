@@ -1,2 +1,2 @@
-/usr/bin/ar qc bin/lib/libtree_lib.a  CMakeFiles/tree_lib.dir/src/findLeafNode.cpp.o
+/usr/bin/ar qc bin/lib/libtree_lib.a  CMakeFiles/tree_lib.dir/src/tree.cpp.o
 /usr/bin/ranlib bin/lib/libtree_lib.a

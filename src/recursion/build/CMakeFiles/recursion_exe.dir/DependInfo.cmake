@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gyubuntu/Documents/Baekjoon/src/recursion/src/traversalOfTree.cpp" "/home/gyubuntu/Documents/Baekjoon/src/recursion/build/CMakeFiles/recursion_exe.dir/src/traversalOfTree.cpp.o"
+  "/home/gyubuntu/Documents/Baekjoon/src/recursion/src/star_11.cpp" "/home/gyubuntu/Documents/Baekjoon/src/recursion/build/CMakeFiles/recursion_exe.dir/src/star_11.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

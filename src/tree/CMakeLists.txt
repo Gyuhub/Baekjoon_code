@@ -10,9 +10,9 @@ set(HEADER_FILES
 )
 # Set source file
 set(SRC_FILES
-    #src/tree.cpp
+    src/tree.cpp
     # src/findParentOfTree.cpp
-    src/findLeafNode.cpp
+    # src/findLeafNode.cpp
 )
 # Set CMake output directory
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/build )
