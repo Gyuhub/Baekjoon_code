@@ -182,35 +182,35 @@ dynamic_programming_exe/fast:
 	$(MAKE) -f CMakeFiles/dynamic_programming_exe.dir/build.make CMakeFiles/dynamic_programming_exe.dir/build
 .PHONY : dynamic_programming_exe/fast
 
-src/2xn.o: src/2xn.cpp.o
+src/normalBackpack.o: src/normalBackpack.cpp.o
 
-.PHONY : src/2xn.o
+.PHONY : src/normalBackpack.o
 
 # target to build an object file
-src/2xn.cpp.o:
-	$(MAKE) -f CMakeFiles/dynamic_programming_lib.dir/build.make CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o
-	$(MAKE) -f CMakeFiles/dynamic_programming_exe.dir/build.make CMakeFiles/dynamic_programming_exe.dir/src/2xn.cpp.o
-.PHONY : src/2xn.cpp.o
+src/normalBackpack.cpp.o:
+	$(MAKE) -f CMakeFiles/dynamic_programming_lib.dir/build.make CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o
+	$(MAKE) -f CMakeFiles/dynamic_programming_exe.dir/build.make CMakeFiles/dynamic_programming_exe.dir/src/normalBackpack.cpp.o
+.PHONY : src/normalBackpack.cpp.o
 
-src/2xn.i: src/2xn.cpp.i
+src/normalBackpack.i: src/normalBackpack.cpp.i
 
-.PHONY : src/2xn.i
+.PHONY : src/normalBackpack.i
 
 # target to preprocess a source file
-src/2xn.cpp.i:
-	$(MAKE) -f CMakeFiles/dynamic_programming_lib.dir/build.make CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.i
-	$(MAKE) -f CMakeFiles/dynamic_programming_exe.dir/build.make CMakeFiles/dynamic_programming_exe.dir/src/2xn.cpp.i
-.PHONY : src/2xn.cpp.i
+src/normalBackpack.cpp.i:
+	$(MAKE) -f CMakeFiles/dynamic_programming_lib.dir/build.make CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.i
+	$(MAKE) -f CMakeFiles/dynamic_programming_exe.dir/build.make CMakeFiles/dynamic_programming_exe.dir/src/normalBackpack.cpp.i
+.PHONY : src/normalBackpack.cpp.i
 
-src/2xn.s: src/2xn.cpp.s
+src/normalBackpack.s: src/normalBackpack.cpp.s
 
-.PHONY : src/2xn.s
+.PHONY : src/normalBackpack.s
 
 # target to generate assembly for a file
-src/2xn.cpp.s:
-	$(MAKE) -f CMakeFiles/dynamic_programming_lib.dir/build.make CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.s
-	$(MAKE) -f CMakeFiles/dynamic_programming_exe.dir/build.make CMakeFiles/dynamic_programming_exe.dir/src/2xn.cpp.s
-.PHONY : src/2xn.cpp.s
+src/normalBackpack.cpp.s:
+	$(MAKE) -f CMakeFiles/dynamic_programming_lib.dir/build.make CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.s
+	$(MAKE) -f CMakeFiles/dynamic_programming_exe.dir/build.make CMakeFiles/dynamic_programming_exe.dir/src/normalBackpack.cpp.s
+.PHONY : src/normalBackpack.cpp.s
 
 # Help Target
 help:
@@ -226,9 +226,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... dynamic_programming_exe"
 	@echo "... install"
-	@echo "... src/2xn.o"
-	@echo "... src/2xn.i"
-	@echo "... src/2xn.s"
+	@echo "... src/normalBackpack.o"
+	@echo "... src/normalBackpack.i"
+	@echo "... src/normalBackpack.s"
 .PHONY : help
 
 

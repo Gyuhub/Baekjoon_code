@@ -6,10 +6,8 @@
 
 #IncludeRegexTransform: 
 
-/home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/src/2xn.cpp
+/home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/src/normalBackpack.cpp
 iostream
--
-math.h
 -
 algorithm
 -

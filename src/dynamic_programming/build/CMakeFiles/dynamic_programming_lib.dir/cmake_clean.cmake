@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o"
+  "CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o"
   "bin/lib/libdynamic_programming_lib.pdb"
   "bin/lib/libdynamic_programming_lib.a"
 )

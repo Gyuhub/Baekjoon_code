@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/src/2xn.cpp" "/home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/build/CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o"
+  "/home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/src/normalBackpack.cpp" "/home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/build/CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

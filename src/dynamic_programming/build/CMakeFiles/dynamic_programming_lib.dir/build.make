@@ -57,38 +57,38 @@ include CMakeFiles/dynamic_programming_lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dynamic_programming_lib.dir/flags.make
 
-CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o: CMakeFiles/dynamic_programming_lib.dir/flags.make
-CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o: ../src/2xn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o -c /home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/src/2xn.cpp
+CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o: CMakeFiles/dynamic_programming_lib.dir/flags.make
+CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o: ../src/normalBackpack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o -c /home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/src/normalBackpack.cpp
 
-CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/src/2xn.cpp > CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.i
+CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/src/normalBackpack.cpp > CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.i
 
-CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/src/2xn.cpp -o CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.s
+CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/src/normalBackpack.cpp -o CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.s
 
-CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o.requires:
+CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o.requires:
 
-.PHONY : CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o.requires
+.PHONY : CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o.requires
 
-CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o.provides: CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o.requires
-	$(MAKE) -f CMakeFiles/dynamic_programming_lib.dir/build.make CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o.provides.build
-.PHONY : CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o.provides
+CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o.provides: CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dynamic_programming_lib.dir/build.make CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o.provides.build
+.PHONY : CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o.provides
 
-CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o.provides.build: CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o
+CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o.provides.build: CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o
 
 
 # Object files for target dynamic_programming_lib
 dynamic_programming_lib_OBJECTS = \
-"CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o"
+"CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o"
 
 # External object files for target dynamic_programming_lib
 dynamic_programming_lib_EXTERNAL_OBJECTS =
 
-bin/lib/libdynamic_programming_lib.a: CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o
+bin/lib/libdynamic_programming_lib.a: CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o
 bin/lib/libdynamic_programming_lib.a: CMakeFiles/dynamic_programming_lib.dir/build.make
 bin/lib/libdynamic_programming_lib.a: CMakeFiles/dynamic_programming_lib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gyubuntu/Documents/Baekjoon/src/dynamic_programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library bin/lib/libdynamic_programming_lib.a"
@@ -100,7 +100,7 @@ CMakeFiles/dynamic_programming_lib.dir/build: bin/lib/libdynamic_programming_lib
 
 .PHONY : CMakeFiles/dynamic_programming_lib.dir/build
 
-CMakeFiles/dynamic_programming_lib.dir/requires: CMakeFiles/dynamic_programming_lib.dir/src/2xn.cpp.o.requires
+CMakeFiles/dynamic_programming_lib.dir/requires: CMakeFiles/dynamic_programming_lib.dir/src/normalBackpack.cpp.o.requires
 
 .PHONY : CMakeFiles/dynamic_programming_lib.dir/requires
 
