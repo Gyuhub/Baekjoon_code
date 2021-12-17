@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/priority_queue_lib.dir/src/example.cpp.o"
+  "CMakeFiles/priority_queue_lib.dir/src/minHeap.cpp.o"
   "bin/lib/libpriority_queue_lib.pdb"
   "bin/lib/libpriority_queue_lib.a"
 )

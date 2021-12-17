@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/gyubuntu/Documents/Baekjoon/src/priority_queue/src/example.cpp
+/home/gyubuntu/Documents/Baekjoon/src/priority_queue/src/minHeap.cpp
 iostream
--
-queue
 -
 

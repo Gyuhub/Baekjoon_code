@@ -182,35 +182,35 @@ priority_queue_lib/fast:
 	$(MAKE) -f CMakeFiles/priority_queue_lib.dir/build.make CMakeFiles/priority_queue_lib.dir/build
 .PHONY : priority_queue_lib/fast
 
-src/example.o: src/example.cpp.o
+src/minHeap.o: src/minHeap.cpp.o
 
-.PHONY : src/example.o
+.PHONY : src/minHeap.o
 
 # target to build an object file
-src/example.cpp.o:
-	$(MAKE) -f CMakeFiles/priority_queue_exe.dir/build.make CMakeFiles/priority_queue_exe.dir/src/example.cpp.o
-	$(MAKE) -f CMakeFiles/priority_queue_lib.dir/build.make CMakeFiles/priority_queue_lib.dir/src/example.cpp.o
-.PHONY : src/example.cpp.o
+src/minHeap.cpp.o:
+	$(MAKE) -f CMakeFiles/priority_queue_exe.dir/build.make CMakeFiles/priority_queue_exe.dir/src/minHeap.cpp.o
+	$(MAKE) -f CMakeFiles/priority_queue_lib.dir/build.make CMakeFiles/priority_queue_lib.dir/src/minHeap.cpp.o
+.PHONY : src/minHeap.cpp.o
 
-src/example.i: src/example.cpp.i
+src/minHeap.i: src/minHeap.cpp.i
 
-.PHONY : src/example.i
+.PHONY : src/minHeap.i
 
 # target to preprocess a source file
-src/example.cpp.i:
-	$(MAKE) -f CMakeFiles/priority_queue_exe.dir/build.make CMakeFiles/priority_queue_exe.dir/src/example.cpp.i
-	$(MAKE) -f CMakeFiles/priority_queue_lib.dir/build.make CMakeFiles/priority_queue_lib.dir/src/example.cpp.i
-.PHONY : src/example.cpp.i
+src/minHeap.cpp.i:
+	$(MAKE) -f CMakeFiles/priority_queue_exe.dir/build.make CMakeFiles/priority_queue_exe.dir/src/minHeap.cpp.i
+	$(MAKE) -f CMakeFiles/priority_queue_lib.dir/build.make CMakeFiles/priority_queue_lib.dir/src/minHeap.cpp.i
+.PHONY : src/minHeap.cpp.i
 
-src/example.s: src/example.cpp.s
+src/minHeap.s: src/minHeap.cpp.s
 
-.PHONY : src/example.s
+.PHONY : src/minHeap.s
 
 # target to generate assembly for a file
-src/example.cpp.s:
-	$(MAKE) -f CMakeFiles/priority_queue_exe.dir/build.make CMakeFiles/priority_queue_exe.dir/src/example.cpp.s
-	$(MAKE) -f CMakeFiles/priority_queue_lib.dir/build.make CMakeFiles/priority_queue_lib.dir/src/example.cpp.s
-.PHONY : src/example.cpp.s
+src/minHeap.cpp.s:
+	$(MAKE) -f CMakeFiles/priority_queue_exe.dir/build.make CMakeFiles/priority_queue_exe.dir/src/minHeap.cpp.s
+	$(MAKE) -f CMakeFiles/priority_queue_lib.dir/build.make CMakeFiles/priority_queue_lib.dir/src/minHeap.cpp.s
+.PHONY : src/minHeap.cpp.s
 
 # Help Target
 help:
@@ -226,9 +226,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
 	@echo "... install"
-	@echo "... src/example.o"
-	@echo "... src/example.i"
-	@echo "... src/example.s"
+	@echo "... src/minHeap.o"
+	@echo "... src/minHeap.i"
+	@echo "... src/minHeap.s"
 .PHONY : help
 
 

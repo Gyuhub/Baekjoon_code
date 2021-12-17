@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/priority_queue_exe.dir/src/example.cpp.o  -o priority_queue_exe bin/lib/libpriority_queue_lib.a 
+/usr/bin/c++    -rdynamic CMakeFiles/priority_queue_exe.dir/src/minHeap.cpp.o  -o priority_queue_exe bin/lib/libpriority_queue_lib.a 
